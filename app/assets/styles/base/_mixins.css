@@ -1,0 +1,25 @@
+@define-mixin break-sm {
+  @media (min-width: 530px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin break-md {
+  @media (min-width: 800px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin break-lg {
+  @media (min-width: 1200px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin clearfix {
+  &::after {
+    content: '';
+    clear: both;
+    display: table;
+  }
+}

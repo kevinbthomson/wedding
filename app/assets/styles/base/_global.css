@@ -1,5 +1,5 @@
-html {
-  
+* {
+  box-sizing: border-box;
 }
 
 body {
@@ -10,4 +10,16 @@ body {
 img {
   max-width: 100%;
   height: auto;
+}
+
+a {
+  color: $mainOrange;
+}
+
+.clearfix {
+  &::after {
+    content: '';
+    clear: both;
+    display: table;
+  }
 }
