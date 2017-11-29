@@ -5,6 +5,14 @@
     margin-right: -65px;
   }
 
+  &--gutters-lg {
+    margin-right: -100px;
+  }
+
+  &--gutters-lg > div {
+    padding-right: 100px;
+  }
+
   &--gutters > div {
     padding-right: 65px;
   }
@@ -25,6 +33,11 @@
 
     &__md-4--larger {
       width: 37%;
+    }
+
+    &__md-6 {
+      float: left;
+      width: 50%;
     }
 
     &__md-8 {
