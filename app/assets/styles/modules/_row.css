@@ -5,6 +5,10 @@
     margin-right: -65px;
   }
 
+  &--gutters > div {
+    padding-right: 65px;
+  }
+
   &--gutters-lg {
     margin-right: -100px;
   }
@@ -13,12 +17,20 @@
     padding-right: 100px;
   }
 
-  &--gutters > div {
-    padding-right: 65px;
+  &--gutters-sm {
+    margin-right: -45px;
+  }
+
+  &--gutters-sm > div {
+    padding-right: 45px;
   }
 
   &__b-margin-small-only {
     margin-bottom: 1rem;
+  }
+
+  &--top-padding {
+    padding-top: 80px;
   }
 
   @mixin break-md {
@@ -47,6 +59,58 @@
 
     &__md-8--smaller {
       width: 63%;
+    }
+  }
+
+  @mixin break-lg {
+    &__b-margin-small-only {
+      margin-bottom: 0;
+    }
+
+    &__lg-4 {
+      float: left;
+      width: 33.33%;
+    }
+
+    &__lg-4--larger {
+      width: 37%;
+    }
+
+    &__lg-6 {
+      float: left;
+      width: 50%;
+    }
+
+    &__lg-8 {
+      float: left;
+      width: 66.66%;
+    }
+
+    &__lg-8--smaller {
+      width: 63%;
+    }
+  }
+
+/* Equal height columns */
+  &--equal-height-md {
+    @mixin break-md {
+      display: flex;  
+    }
+
+    & > div {
+      float: none;
+      display: flex;
+    }
+  }
+
+  &--equal-height-lg {
+    @mixin break-lg {
+      display: flex;  
+    }
+
+    & > div {
+      float: none;
+      display: flex;
     }
   }
 }
