@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
   <meta charset="utf-8">
@@ -7,7 +7,8 @@
   <title>Niklas Thomson Wedding - July 28th, 2018</title>
   <meta name="description" content="Jacquelyn Niklas and Kevin Thomson's wedding, Bread Bar, Silver Plume, Colorado, on July 28th, 2018">
 
-  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Freckle+Face|Love+Ya+Like+A+Sister|Rye|Special+Elite|Vollkorn+SC" rel="stylesheet">
+
   <link rel="stylesheet" type="text/css" href="temp/styles/style.css">
 </head>
 <body>
@@ -21,13 +22,13 @@
       </div>
       <div class="site-header__menu-content">
         <div class="site-header__btn-container">
-          <a href="#" class="btn">Get in Touch</a>
+          <a href="#" class="btn">RSVP</a>
         </div>
         <nav class="primary-nav primary-nav--pull-right">
           <ul>
-            <li><a href="#our-beginning">Our Beginning</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#our-story" id="our-story-link">Our Story</a></li>
+            <li><a href="#features" id="details-link">The Details</a></li>
+            <li><a href="#testimonials" id="location-link">Location</a></li>
           </ul>
         </nav>
       </div>
@@ -47,12 +48,11 @@
         <h1 class="large-hero__title">Jacquelyn Niklas <span>&amp;</span> Kevin Thomson</h1>
         <h2 class="large-hero__subtitle">July 28th, 2018</h2>
         <p class="large-hero__description">We are tying the damn knot!!</p>
-        <p><a href="#" class="btn btn--orange btn--large">Get Started Today</a></p>
       </div>
     </div>
   </div>
 
-  <div id="our-beginning" class="page-section">
+  <div id="our-story" class="page-section" data-matching-link="#our-story-link">
     <div class="wrapper">
       <h2 class="headline headline--centered headline--light headline--b-margin-small">The first trip we planned <strong>was our own.</strong></h2>
       <h3 class="headline headline--centered headline--orange headline--small headline--narrow headline--b-margin-large">Ever since, we&rsquo;ve been working to make travel <strong>better for everyone.</strong></h3>
@@ -79,11 +79,11 @@
           </div>
         </div><!-- /.row -->
     </div><!-- /.wrapper -->
-  </div><!-- /#our-beginning -->
+  </div><!-- /#our-story -->
 
-  <div id="features" class="page-section page-section--blue">
+  <div id="features" class="page-section page-section--blue" data-matching-link="#details-link">
     <div class="wrapper">
-      <h2 class="section-title"><span class="icon icon--star section-title__icon"></span> Our <strong>Features</strong></h2>
+      <h2 class="section-title"><span class="icon icon--star section-title__icon"></span> The <strong>Details</strong></h2>
 
       <div class="row row--gutters-lg generic-content-container">
         <div class="row__md-6">
@@ -118,38 +118,38 @@
     </div>
   </div>
 
-  <div id="testimonials" class="page-section page-section--no-b-padding-until-lg page-section--testimonials">
+  <div id="testimonials" class="page-section page-section--no-b-padding-until-lg page-section--testimonials" data-matching-link="#location-link">
     <div class="wrapper wrapper--no-padding-until-lg">
-        <h2 class="section-title section-title--blue"><span class="icon icon--comment section-title__icon"></span> Real <strong>Testimonials</strong></h2>
+        <h2 class="section-title section-title--blue"><span class="icon icon--comment section-title__icon"></span> The <strong>Location</strong></h2>
 
         <div class="row row--equal-height-lg row--gutters row--gutters-sm row--top-padding generic-content-container">
           <div class="row__lg-4">
-            <div class="testimonial">
-            <div class="testimonial__photo">
-              <img sizes="160px" srcset="assets/images/testimonial-jane.jpg 160w, assets/images/testimonial-jane-hi-dpi.jpg 320w">
+            <div class="location">
+            <div class="location__photo">
+              <img sizes="160px" srcset="assets/images/location-bread.jpg 160w, assets/images/location-bread-hi-dpi.jpg 320w" alt="Bread Bar">
             </div>
-              <h3 class="testimonial__title">Jane Doe</h3>
-              <h4 class="testimonial__subtitle">9 Time Escaper</h4>
-              <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&rdquo;</p>
+              <h3 class="location__title">Venue</h3>
+              <h4 class="location__subtitle">Bread Bar</h4>
+              <p>&ldquo;Bread Bar is a fine mountainside drinking establishment at the foot of the Rocky Mountain range. Housed in a 1800s-era bakery, Bread Bar honors its rich history and the Silver Plume community as a whole. Come on by, we&rsquo;d love to make you a drink. Open Fridays at 4 PM, Saturdays at 2 PM, and Sundays at noon.&rdquo;</p>
             </div>
           </div>
           <div class="row__lg-4">
-            <div class="testimonial">
-              <div class="testimonial__photo">
+            <div class="location">
+              <div class="location__photo">
                 <img sizes="160px" srcset="assets/images/testimonial-john.jpg 160w, assets/images/testimonial-john-hi-dpi.jpg 320w">
               </div>
-              <h3 class="testimonial__title">John Smith</h3>
-              <h4 class="testimonial__subtitle">4 Time Escaper</h4>
+              <h3 class="location__title">Accomodations</h3>
+              <h4 class="location__subtitle">4 Time Escaper</h4>
               <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur.&rdquo;</p>
             </div>
           </div>
           <div class="row__lg-4">
-            <div class="testimonial testimonial--last">
-              <div class="testimonial__photo">
+            <div class="location testimonial--last">
+              <div class="location__photo">
                 <img sizes="160px" srcset="assets/images/testimonial-cat.jpg 160w, assets/images/testimonial-cat-hi-dpi.jpg 320w" alt="Cat McKitty">
               </div>
-              <h3 class="testimonial__title">Cat McKitty</h3>
-              <h4 class="testimonial__subtitle">6 Time Escaper</h4>
+              <h3 class="location__title">Cat McKitty</h3>
+              <h4 class="location__subtitle">6 Time Escaper</h4>
               <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.&rdquo;</p>
             </div>
           </div>
@@ -159,7 +159,7 @@
 
   <footer class="site-footer">
     <div class="wrapper">
-      <p><span class="site-footer__text">Copyright &copy; 2016 Clear View Escapes. All rights reserved.</span> <a href="#" class="btn btn--orange">Get in Touch</a></p>
+      <p><span class="site-footer__text">Copyright &copy; 2018 Jacque &amp; Kevin are gettin' hitched. All rights reserved. ;P</span> <a href="mailto: jacqueniklas@gmail.com" class="btn btn--orange" title="Send us an email">Get in Touch</a></p>
     </div>
   </footer>
 

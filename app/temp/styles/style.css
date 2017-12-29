@@ -464,7 +464,8 @@ template {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Special Elite', sans-serif;
   color: #333;
 }
 
@@ -520,6 +521,7 @@ a {
   }
 
 .large-hero__title span {
+      font-family: 'Vollkorn SC', serif;
       font-size: 0.5em;
     }
 
@@ -960,6 +962,7 @@ a {
   }
 
 .feature-item__title {
+    font-family: 'Vollkorn SC', serif;
     font-size: 1.6rem;
     font-weight: 300;
     margin-top: .7em;
@@ -975,7 +978,7 @@ a {
   }
   }
 
-.testimonial {
+.location {
   background: rgba(255, 255, 255, 0.8);
   padding: 0 18px 1px 18px;
   margin-bottom: 98px;
@@ -983,17 +986,17 @@ a {
 
 @media (min-width: 1010px) {
 
-.testimonial {
+.location {
     padding: 0 1.8125rem 1px 1.8125rem;
     margin-bottom: 0
 }
   }
 
-.testimonial--last {
+.location--last {
     margin-bottom: 0;
   }
 
-.testimonial__photo {
+.location__photo {
     border-radius: 80px;
     border: 6px solid rgba(255, 255, 255, 0.8);
     overflow: hidden;
@@ -1004,7 +1007,7 @@ a {
     top: -80px;
   }
 
-.testimonial__title {
+.location__title {
     color: #2f5572;
     font-size: 1.5rem;
     font-weight: 500;
@@ -1012,7 +1015,7 @@ a {
     margin: 0;
   }
 
-.testimonial__subtitle {
+.location__subtitle {
     color: #d59541;
     font-weight: 400;
     font-size: .9rem;
@@ -1136,8 +1139,13 @@ a {
 @media (min-width: 800px) {
 
 .site-header {
-    background-color: rgba(47,85,114, 0.3)
+    background-color: rgba(47,85,114, 0.3);
+    position: fixed
 }
+
+    .site-header--dark {
+      background-color: rgba(23, 51, 72, 0.85);
+    }
   }
 
 @media (min-width: 800px) {
@@ -1157,6 +1165,10 @@ a {
             transform-origin: 50% 0%;
     background-color: #2f5572;
     padding: 25px 36px;
+    -webkit-transition: -webkit-transform .3s ease-out;
+    transition: -webkit-transform .3s ease-out;
+    transition: transform .3s ease-out;
+    transition: transform .3s ease-out, -webkit-transform .3s ease-out;
   }
 
 @media (min-width: 800px) {
@@ -1166,6 +1178,11 @@ a {
       -webkit-transform: translateX(0);
               transform: translateX(0)
   }
+
+      .site-header--dark .site-header__logo {
+        -webkit-transform: scale(0.57);
+                transform: scale(0.57);
+      }
   }
 
 .site-header__logo__graphic {
@@ -1346,6 +1363,7 @@ a {
       padding: 5px 8px;
       font-size: 0.8rem;
       background-color: rgba(47,85,114, 0.5);
+      text-shadow: 0 1px 1px rgba(black, 0.5);
     }
 
 @media (min-width: 800px) {
@@ -1355,6 +1373,10 @@ a {
         padding: 12px 0;
         background-color: transparent
     }
+
+        .primary-nav ul a.is-current-link {
+          color: #fabb69;
+        }
   }
 
 .reveal-item {

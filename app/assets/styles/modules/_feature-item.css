@@ -17,6 +17,7 @@
   }
 
   &__title {
+    font-family: 'Vollkorn SC', serif;
     font-size: 1.6rem;
     font-weight: 300;
     margin-top: .7em;
