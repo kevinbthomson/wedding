@@ -11115,7 +11115,7 @@ var mobileMenu = new _MobileMenu2.default();
 var stickyHeader = new _StickyHeader2.default();
 
 new _RevealOnScroll2.default((0, _jquery2.default)('.feature-item'), '80%');
-new _RevealOnScroll2.default((0, _jquery2.default)('.testimonial'), '60%');
+new _RevealOnScroll2.default((0, _jquery2.default)('.location'), '60%');
 
 /***/ }),
 /* 3 */
