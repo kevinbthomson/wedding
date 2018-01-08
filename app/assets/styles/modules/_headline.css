@@ -1,5 +1,6 @@
 .headline {
-  font-family: 'Freckle Face', serif;
+  font-family: 'Special Elite', serif;
+  font-family: $font-family--headline;
   font-weight: 300;
   font-size: 1.9rem;
   color: $mainBlue;

@@ -1,0 +1,17 @@
+.form {
+  /*font-family: sans-serif;*/
+
+  &-group {
+    margin: 0 0 1rem 0;
+  }
+
+  &-control {
+    width: 100%;
+    padding: 5px;
+    font-size: 1rem;
+  }
+
+  .btn {
+    font-family: 'Special Elite', sans-serif;
+  }
+}

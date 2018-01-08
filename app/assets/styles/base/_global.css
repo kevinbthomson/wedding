@@ -6,6 +6,10 @@ body {
   /*font-family: 'Roboto', sans-serif;*/
   font-family: 'Special Elite', sans-serif;
   color: #333;
+
+  &.modal-open {
+    overflow: hidden;
+  }
 }
 
 img {
@@ -15,6 +19,20 @@ img {
 
 a {
   color: $mainOrange;
+}
+
+.title {
+  font-family: 'Vollkorn SC', serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-top: .7em;
+    margin-bottom: 0.8rem;
+    text-align: center;
+
+    @mixin break-sm {
+      font-size: 1.875rem;
+      text-align: left;
+    }
 }
 
 .clearfix {
