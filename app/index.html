@@ -8,8 +8,9 @@
   <meta name="description" content="Jacquelyn Niklas and Kevin Thomson's wedding, Bread Bar, Silver Plume, Colorado, on July 28th, 2018">
 
   <link href="https://fonts.googleapis.com/css?family=Rye|Special+Elite|Vollkorn+SC" rel="stylesheet">
-
   <link rel="stylesheet" type="text/css" href="temp/styles/style.css">
+
+  <script src="/temp/scripts/Vendor.js"></script>
 </head>
 <body>
   <header class="site-header">
@@ -56,15 +57,15 @@
   <div id="our-story" class="page-section" data-matching-link="#our-story-link">
     <div class="wrapper">      
       <div class="wrapper wrapper--medium wrapper--b-margin">
-        <img sizes="(min-width: 976px) 976px, 100vw" srcset="assets/images/our-story-low-res.jpg 565w, assets/images/our-story.jpg 976w, assets/images/our-story-hi-dpi.jpg 1952w" alt="Couple walking down a street.">  
+        <img class="lazyload" sizes="(min-width: 976px) 976px, 100vw" data-srcset="assets/images/our-story-low-res.jpg 565w, assets/images/our-story.jpg 976w, assets/images/our-story-hi-dpi.jpg 1952w" alt="Couple walking down a street.">  
       </div>
       
         <div class="row row--gutters">
           <div class="row__md-4 row__md-4--larger row__b-margin-small-only">
             <picture>
-              <source sizes="404px" srcset="assets/images/our-story-2.jpg 404w, assets/images/our-story-2-hi-dpi.jpg 808w" media="(min-width: 1020px)">
-              <source sizes="320px" srcset="assets/images/our-story-2-portrait.jpg 382w, assets/images/our-story-2-portrait-hi-dpi.jpg 764w" media="(min-width: 800px)">
-              <img src="assets/images/our-story-2-landscape.jpg" alt="Engagement photo">
+              <source class="lazyload" sizes="404px" data-srcset="assets/images/our-story-2.jpg 404w, assets/images/our-story-2-hi-dpi.jpg 808w" media="(min-width: 1020px)">
+              <source class="lazyload" sizes="320px" data-srcset="assets/images/our-story-2-portrait.jpg 382w, assets/images/our-story-2-portrait-hi-dpi.jpg 764w" media="(min-width: 800px)">
+              <img class="lazyload" data-srcset="assets/images/our-story-2-landscape.jpg 800w, assets/images/our-story-2-landscape-hi-dpi.jpg 1600w" alt="Engagement photo">
             </picture>
           </div>
           <div class="row__md-8 row__md-8--smaller">
@@ -115,7 +116,7 @@
     </div>
   </div>
 
-  <div id="location" class="page-section page-section--no-b-padding-until-lg page-section--location" data-matching-link="#location-link">
+  <div id="location" class="page-section page-section--no-b-padding-until-lg page-section--location lazyload" data-matching-link="#location-link">
     <div class="wrapper wrapper--no-padding-until-lg">
         <h2 class="section-title section-title--blue"><span class="icon icon--comment section-title__icon"></span> The <strong>Location</strong></h2>
 
@@ -123,7 +124,7 @@
           <div class="row__lg-4">
             <div class="location">
             <div class="location__photo">
-              <img sizes="160px" srcset="assets/images/location-bread.jpg 160w, assets/images/location-bread-hi-dpi.jpg 320w" alt="Bread Bar">
+              <img class="lazyload" sizes="160px" data-srcset="assets/images/location-bread.jpg 160w, assets/images/location-bread-hi-dpi.jpg 320w" alt="Bread Bar">
             </div>
               <h3 class="location__title">Bread Bar</h3>
               <p>Bread Bar is a fine mountainside drinking establishment at the foot of the Rocky Mountain range.</p>
@@ -139,7 +140,7 @@
           <div class="row__lg-4">
             <div class="location">
               <div class="location__photo">
-                <img sizes="160px" srcset="assets/images/testimonial-john.jpg 160w, assets/images/testimonial-john-hi-dpi.jpg 320w">
+                <img class="lazyload" sizes="160px" data-srcset="assets/images/testimonial-john.jpg 160w, assets/images/testimonial-john-hi-dpi.jpg 320w">
               </div>
               <h3 class="location__title">Accomodations</h3>
               <p>Due to the available transportation options it would be best to stay in Georgetown, just 2 miles from the wedding venue and central to all the hiking, dining and activities in Clear Creek County, Colorado. However, as accommodations in Georgetown are limited we will also be providing transportation to Silverthorne.</p>
@@ -153,14 +154,14 @@
           <div class="row__lg-4">
             <div class="location location--last">
               <div class="location__photo">
-                <img sizes="160px" srcset="assets/images/testimonial-cat.jpg 160w, assets/images/testimonial-cat-hi-dpi.jpg 320w" alt="Cat McKitty">
+                <img class="lazyload" sizes="160px" data-srcset="assets/images/testimonial-cat.jpg 160w, assets/images/testimonial-cat-hi-dpi.jpg 320w" alt="Cat McKitty">
               </div>
               <h3 class="location__title">Transportation</h3>
               <p>Shuttle service will be provided from two, walkable pick-up/drop-off locations on either side of Georgetown. There will also be limited service from the Hampton Inn in Silverthorne. There is taxi and Uber/Lyft available to get you to and from this pick-up/drop-off location if you choose to stay in or near Silverthorne.</p>
 
               <p>We want everyone to share an amazing and fun evening with us and getting everyone home safely is our number one priority so we hope you understand the less than flexible options.</p>
 
-              <p>To better organize transportation for everyone, please click the link below and let us know the location of your accommodations once you have made reservations. Thank you so much for your help!</p>
+              <!-- <p>To better organize transportation for everyone, please click the link below and let us know the location of your accommodations once you have made reservations. Thank you so much for your help!</p> -->
             </div>
           </div>
         </div>
