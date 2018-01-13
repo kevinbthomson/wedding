@@ -11120,6 +11120,7 @@ var stickyHeader = new _StickyHeader2.default();
 
 new _RevealOnScroll2.default((0, _jquery2.default)('.feature-item'), '80%');
 new _RevealOnScroll2.default((0, _jquery2.default)('.location'), '60%');
+new _RevealOnScroll2.default((0, _jquery2.default)('.things-item'), '70%');
 
 var modal = new _Modal2.default();
 

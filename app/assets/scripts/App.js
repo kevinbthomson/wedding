@@ -9,5 +9,6 @@ var stickyHeader = new StickyHeader();
 
 new RevealOnScroll($('.feature-item'), '80%');
 new RevealOnScroll($('.location'), '60%');
+new RevealOnScroll($('.things-item'), '70%');
 
 var modal = new Modal();

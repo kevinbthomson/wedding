@@ -14,4 +14,10 @@
     font-weight: 700;
   }
 
+  &-columns {
+    @mixin break-lg {
+      columns: 2;
+    }
+  }
+
 }
