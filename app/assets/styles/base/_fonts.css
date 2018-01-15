@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'reidfork_handdrawn_roughRg';
-    src: url('/assets/fonts/reidfork_handdrawn_rough-webfont.woff2') format('woff2'),
-         url('/assets/fonts/reidfork_handdrawn_rough-webfont.woff') format('woff');
+    src: url('../fonts/reidfork_handdrawn_rough-webfont.woff2') format('woff2'),
+         url('../fonts/reidfork_handdrawn_rough-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
