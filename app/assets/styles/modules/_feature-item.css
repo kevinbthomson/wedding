@@ -1,6 +1,6 @@
 .feature-item {
   position: relative;
-  padding-bottom: 2.5rem;
+  padding-bottom: 2rem;
 
   @mixin break-sm {
     /*padding-left: 94px;*/
