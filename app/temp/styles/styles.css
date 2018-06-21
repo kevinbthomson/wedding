@@ -505,6 +505,10 @@ a {
     display: table;
   }
 
+.align-center {
+  text-align: center;
+}
+
 .large-hero {
   color: white;
   position: relative;
